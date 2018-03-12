@@ -1,0 +1,7 @@
+importFrom("affxparser", "readCelHeader")
+importFrom("doParallel", "registerDoParallel")
+importFrom("foreach", "foreach", "%do%", "%dopar%")
+importFrom("parallel", "makeCluster", "stopCluster", "detectCores")
+importFrom("tools", "file_path_as_absolute")
+importFrom("utils", "read.table", "write.table", "installed.packages")
+exportPattern("apt.oncoscan.process", "apt.oncoscan.process.batch")

@@ -1,0 +1,43 @@
+apt.oncoscan.2.4.0
+------------------
+
+v0.1.5 (20180310)
+-----------------
+* Added EXE extension to the windows binary (required for execution!).
+* Added missing options to multithreaded mode to properly handle messages (function and error messages)
+
+v0.1.4 (20180222)
+-----------------
+* Removed un-needed dependency (maelstrom)
+
+v0.1.3 (20171128)
+-----------------
+* Updated to be integrated into the new complete pipeline (called by 'affy.CN.process::affy.OS.process')
+* Cleaned code.
+* Added thread-compatible messages.
+
+v0.1.2 (20170214)
+-----------------
+* Extracted multithreading to a new function.
+
+v0.1.1 (20170208)
+-----------------
+* Added a new parameter "dual.norm" that activates APT's wave-effect normalization (set to TRUE by default).
+
+v0.0-3 (20161110)
+-----------------
+* Added APT binaries for Windows (64 bits) and MacOSX, and corresponding support in R (untested, though) !
+* Now the package can be installed to and used from any R library path (earlier versions required to be in the first result of .libPaths()).
+* Corrected a bug when local paths were used.
+* Added maelstrom as a new dependency (for its get.os() function).
+* Changed the dependency behavior in DESCRIPTION file (from Imports to Depends).
+* Updated help and corrected some typos.
+
+v0.0-2 (20161027)
+-----------------
+* Package can now work as intended as apt binary and dependecies are actually installed in the destination R library.
+* Few non-critical bugs solved.
+
+v0.0-1 (20161017)
+----------------
+* First early-beta-wip-ongoing-under-construction-use-at-your-own-risk-i-decline-all-responsibility version.

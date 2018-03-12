@@ -1,0 +1,14 @@
+Encoding: UTF-8
+Package: apt.oncoscan.2.4.0
+Type: Package
+Title: Affymetrix OncoScan processing using apt-copynumber-onco-ssa (2.4.0)
+Version: 0.1.5
+Author: Bastien Job [aut, cre]
+Date: 2018-03-10
+Maintainer: Bastien Job <bastien.job@inserm.fr>
+Description: Process OncoScan (OncoScan, OncoScan_CNV) CEL files using apt-copynumber-onco-ssa (2.4.0 2015-08-28) from APT.
+Depends: R (>= 3.2.1)
+Imports: foreach, parallel, doParallel, affxparser
+License: Artistic-2.0
+LazyData: TRUE
+NeedsCompilation: no
