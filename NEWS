@@ -3,6 +3,10 @@ apt.oncoscan.2.4.0
 
 v0.1.5 (20180310)
 -----------------
+* Just a light modification to tmsg().
+
+v0.1.5 (20180310)
+-----------------
 * Added EXE extension to the windows binary (required for execution!).
 * Added missing options to multithreaded mode to properly handle messages (function and error messages)
 
